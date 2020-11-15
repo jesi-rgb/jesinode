@@ -8,7 +8,6 @@ RUN npm i
 
 CMD node -r esm index.js
 
-
 # low level shit no se que
 # RUN apt update -y && apt install curl -y
 # RUN curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
