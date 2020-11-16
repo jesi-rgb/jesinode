@@ -1,0 +1,4 @@
+# Prisma Migrate lockfile v1
+
+20201115231134-adding-user-table
+20201115231950-added-permissions-to-db
