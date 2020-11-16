@@ -7,7 +7,7 @@ const prisma = new PrismaClient()
 const server = express();
 
 // puerto a escuchar
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 server.get("/", (req, res) => {
     res.sendFile(__dirname + "/create-user.html");

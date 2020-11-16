@@ -4,9 +4,9 @@ WORKDIR /app
 
 ADD . /app
 
-RUN npm i
+RUN npm i && npx prisma generate
 
-CMD node -r esm index.js
+CMD node -r esm src/index.js
 
 # low level shit no se que
 # RUN apt update -y && apt install curl -y
